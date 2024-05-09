@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="hobbies.html">My Hobbies</a></li>
+        <li><a href="hometown.html">My Hometown</a></li>
+      </ul>
+    </nav>
+
+    <h1>Home Page</h1>
+
+    <h2 class="highlight">JS Events</h2>
+
+    <h2>Choose an Image</h2>
+    <button onclick="changeImage('cooking.jpeg')">Cooking Image</button>
+    <button onclick="changeImage('hiking.jpeg')">Hiking Image</button>
+    <button onclick="changeImage('hyd.jpeg')">Home Town Image</button><br /><br />
+
+    <img id="displayImage" class="centered-image" src="images/cooking.jpeg" alt="Cooking Image" /><br /><br />
+
+    <form id="myForm">
+      <label for="myField">Enter the "My Website":</label>
+      <input type="text" id="myField" name="myField" />
+      <button type="button" onclick="validateInput()">Submit</button>
+      <p id="errorMessage" style="color: red; display: none">
+        Incorrect value! Please try again.
+      </p>
+    </form><br /><br />
+
+    <button class="accordionBtn">Hobby 1</button>
+    <div class="accordDescription">
+      <p>I enjoy reading books, especially fiction and fantasy.</p>
+    </div>
+
+    <button class="accordionBtn">Hobby 2</button>
+    <div class="accordDescription">
+      <p>Capturing moments and beautiful scenes with my camera.</p>
+    </div>
+
+    <button class="accordionBtn">Hobby 3</button>
+    <div class="accordDescription">
+      <p>Playing video games, especially strategy and puzzle games</p>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>

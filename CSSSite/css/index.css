@@ -1,0 +1,116 @@
+.centered-image {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hobby_image {
+    display: inline;
+    width: 300px;
+    height: 250px;
+}
+
+.centered-image:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.highlight {
+    color: #2293f6;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #2293f6;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #257cc8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 30px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+p.myhometown {
+    color: #555;
+    font-size: 16px;
+    margin: 2em 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+ul.list {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+li.listitem {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+li.listitem:hover {
+    background-color: #e0e0e0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #2293f6;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+td ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
